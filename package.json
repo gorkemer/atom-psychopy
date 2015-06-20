@@ -1,0 +1,31 @@
+{
+  "name": "psychopy",
+  "main": "./lib/psychopy",
+  "version": "0.0.0",
+  "description": "Launch PsychoPy experiments from Atom.io",
+  "author": "Thomas Emmerling <git@thomasemmerling.de>",
+  "keywords": [
+    "psychopy",
+    "launcher",
+    "atom"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "psychopy:run",
+      "psychopy:stop",
+      "psychopy:close-view"
+    ]
+  },
+  "repository": "https://github.com/thomastweets/atom-psychopy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "ansi-to-html": ">0.1.0",
+    "node-uuid": "~1.4.0",
+    "strip-ansi": "^2.0.1",
+    "underscore": "~1.5.2",
+    "atom-space-pen-views": "^2.0.3"
+  }
+}

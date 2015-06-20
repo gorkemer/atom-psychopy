@@ -1,0 +1,34 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Psychopy: Run Script'
+      'command': 'psychopy:run'
+    },
+    {
+      'label': 'Psychopy: Stop Script'
+      'command': 'psychopy:stop'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Psychopy'
+      'submenu': [
+        {
+          'label': 'Run Script'
+          'command': 'psychopy:run'
+        },
+        {
+          'label': 'Stop Script'
+          'command': 'psychopy:stop'
+        },
+        {
+          'label': 'Close Window and Stop Script'
+          'command': 'psychopy:close-view'
+        }
+      ]
+    ]
+  }
+]
