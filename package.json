@@ -1,7 +1,7 @@
 {
   "name": "psychopy",
   "main": "./lib/psychopy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Launch PsychoPy experiments from Atom.io",
   "author": "Thomas Emmerling <git@thomasemmerling.de>",
   "keywords": [
