@@ -13,7 +13,7 @@ class HeaderView extends View
         click: 'close'
 
   close: ->
-    atom.commands.dispatch @workspaceView(), 'script:close-view'
+    atom.commands.dispatch @workspaceView(), 'psychopy:close-view'
 
   setStatus: (status) ->
     @status.removeClass 'icon-alert icon-check icon-hourglass icon-stop'
