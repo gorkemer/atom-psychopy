@@ -6,5 +6,6 @@ The standalone version of [PsychoPy](http://www.psychopy.org/) offers an IDE tha
 - write tests
 - compatibility with Windows/Linux (add defaults for paths)
 - documentation
+- for now concurrent console output is not possible because of the bufferedProcess way of spawning the python process (see [here](https://github.com/rgbkrk/atom-script/issues/497))
 
 This package relies to a great part on the [script package](https://atom.io/packages/script) by [rgbkrk](https://atom.io/users/rgbkrk).
